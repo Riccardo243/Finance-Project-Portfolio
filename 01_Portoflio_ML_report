@@ -10,9 +10,11 @@ The project also taught me how to evaluate a portfolio from both a performance a
 A key practical skill was the construction of drawdown analysis. By calculating the running peak and the percentage loss from the previous high, I learned how to measure the real pain experienced by an investor during negative market phases. This is directly relevant for asset management because portfolio managers must evaluate not only expected gains, but also the path of returns, sequence risk and the investor's ability to tolerate losses without abandoning the strategy.
 
 
+
 3. Monte Carlo simulation and long-term projections
 Another important part of the project was Monte Carlo simulation. I learned how to simulate thousands of possible future portfolio paths by bootstrapping historical monthly returns. This allowed me to move beyond a single deterministic forecast and evaluate a distribution of possible outcomes. The project included simulations over long horizons, including scenarios with monthly contributions, which is much closer to a real accumulation strategy followed by many investors.
 This skill is very useful in asset management because it helps communicate uncertainty. Instead of saying that a portfolio will reach one specific future value, a professional analysis can show a range of possible outcomes: pessimistic, median and optimistic paths. This makes the investment process more realistic and supports better financial planning, risk budgeting and client communication.
+
 
 Skill developed	                                    Practical meaning
 Portfolio return construction	                      Transform asset data into a single investable portfolio series
@@ -23,20 +25,16 @@ Monthly contribution modelling	                    Connect portfolio analysis wi
 
 
 Skills Learned Through the Portfolio Project
-4. Macro-aware portfolio analysis
-A more advanced learning outcome was the integration of macroeconomic variables into portfolio analysis. I learned how to retrieve and use data such as interest rates, the yield curve, inflation, the VIX and the dollar index, and how to connect these variables to portfolio returns. This transforms the portfolio from a simple performance tracker into a macro-sensitive analytical tool.
-Using regression analysis, I learned to estimate how sensitive the portfolio is to macro factors. In particular, the project included standardized beta analysis, which makes the impact of different variables comparable, and VIF analysis, which checks whether explanatory variables are too correlated with one another. This is important because a regression with unstable or redundant factors can produce misleading interpretations. The project therefore improved not only my technical coding skills, but also my understanding of model reliability.
-
-5. Allocation logic and macro-aware optimization
-The project then evolved from analysis to decision-making. I learned how to create allocation rules using constraints, such as minimum and maximum weights, fixed exposure to specific assets, and exclusion rules. I also learned how to combine classical Markowitz logic with macro-aware adjustments, using a hybrid score that considers risk-return efficiency, Sharpe-like attractiveness, Federal Reserve sensitivity, inflation exposure, concentration and drawdown risk.
-This is directly connected to professional asset management because real portfolios are rarely optimized with a purely theoretical model. Portfolio managers must respect constraints, client objectives, liquidity, concentration limits, tactical views and macro regimes. The project helped me understand that optimization is not just a mathematical output: it must become an implementable and explainable investment decision.
+4. Stress testing and crisis scenario analysis
+Another important learning outcome was the use of stress testing to evaluate portfolio resilience under extreme market conditions. In particular, I applied a historical stress test based on the 2008 Global Financial Crisis to understand how the portfolio would have behaved during a severe market downturn.
+This allowed me to move beyond normal performance metrics and assess the portfolio under adverse conditions, focusing on potential losses, drawdown, volatility spikes and the reduction of diversification benefits during crisis periods. The exercise helped me understand that a portfolio can appear efficient in normal market environments but still be vulnerable when exposed to systemic shocks
 
 
-6. How I would apply this in Asset Management
+5. How I would apply this in Asset Management
 In an asset management context, I would apply this framework in several ways. First, I would use it as a portfolio monitoring tool to track performance, volatility, drawdown and contribution to risk. Second, I would use it as a risk dashboard to identify whether the portfolio is excessively exposed to equity market stress, interest-rate shocks, inflation regimes or currency movements. Third, I would use Monte Carlo simulation to show clients or investment committees the range of possible future outcomes under uncertainty.
 Fourth, I would use the macro-aware allocation framework to support tactical asset allocation. For example, if the portfolio shows strong negative sensitivity to rising rates or VIX spikes, the allocation could be adjusted by reducing the most vulnerable exposures, increasing diversification or introducing defensive assets. Fifth, I would apply the same logic to client reporting: rather than presenting only returns, I would explain why the portfolio moved, which macro factors affected it, how much risk was taken, and whether the allocation remains coherent with the investment objective.
 
 
-7. Professional value of the project
+6. Professional value of the project
 Overall, this project trained me to think like a quantitative asset management analyst. I learned how to combine Python, Excel-based data inputs, portfolio theory, risk metrics, macroeconomic analysis, regression diagnostics, Monte Carlo simulation and constrained allocation logic into one coherent workflow. The main value is not only the final code, but the ability to build a full analytical process: from raw data, to portfolio metrics, to risk interpretation, to allocation decisions.
 The project is therefore directly relevant for roles in asset management, portfolio analytics, investment research, risk management and wealth management. It demonstrates the ability to analyze a portfolio objectively, quantify its vulnerabilities, simulate future scenarios and translate data into practical investment decisions. With further development, the same framework could become a professional dashboard for monitoring portfolios, producing investment reports and supporting strategic or tactical asset allocation decisions.
